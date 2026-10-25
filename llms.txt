@@ -1,0 +1,23 @@
+# BlackSwanLabz Partner Intake
+
+> A free skill for AI agents: ask a person five multiple-choice questions, fetch the matching artifacts (curriculum, skills, SOPs, HR pack, KPIs and OKRs, grant-readiness checklist) from the public BlackSwanLabz research lab, and draft a labeled starter pack. A working draft, tested once. It drafts; it does not promise grants, eligibility or results.
+
+Read in this order.
+
+## Start here
+- [README](README.md): what it is, what is real, what is only designed, what is not claimed.
+- [AGENTS.md](AGENTS.md): the rules an agent must follow.
+
+## The skill
+- [SKILL.md](lab-artifact-intake/SKILL.md): the procedure, step by step.
+- [The five questions and routing](lab-artifact-intake/references/questions.md)
+- [Lab artifact map](lab-artifact-intake/references/artifact-map.md): which lab files supply which need, and what the lab does not have.
+- [Pack templates](lab-artifact-intake/references/pack-templates.md): templates for each artifact; section 7 (growth measurement for people with disabilities) is new design, not from the lab.
+- [Example cover page](lab-artifact-intake/references/example-pack-readme.md): fictional, shows the shape only.
+- [fetch_lab.py](lab-artifact-intake/scripts/fetch_lab.py): fetches lab files with a manifest; `--check` proves the map still resolves.
+
+## The lab it draws from
+- [BlackSwanLabz research lab (llms.txt)](https://raw.githubusercontent.com/lordwilsonDev/blackswanlabz-research-lab/HEAD/llms.txt)
+
+## Licenses
+- [LICENSE](LICENSE): text. [LICENSE-CODE](LICENSE-CODE): code.
